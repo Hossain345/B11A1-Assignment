@@ -63,7 +63,8 @@ div ul{
     justify-content: space-between;
     gap: 64;
     padding: 80px 100px 80px 100px;
-    
+    margin-top: 20px;
+    margin-bottom: 80px;
 }
 
 .banner-content{
@@ -115,4 +116,142 @@ text-align: left;
 
 .banner{
     background-color: #C6E4D6;
+}
+
+/* card style */
+.card-heading{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.card{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 40px;
+    
+}
+.card-content-heading{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.card-content-para{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.card-section{
+    display:flex;
+}
+
+
+/* card color */
+.card-heading{
+    color:#0E0E0E;
+}
+
+.card-content-heading .card-content-para{
+    color:#0E0E0E;
+}
+
+.card{
+    background: rgb(255, 255, 255);
+}
+
+/* vision heading area style */
+.vision-area{
+    margin-top: 80px;
+}
+
+.vision-heading{
+    font-weight: 800;
+    font-size: 40px;
+}
+
+/* vision card style */
+.vision-card1{
+    border: 1px solid;
+    padding:32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: none;
+}
+
+.vision-card2{
+    border: 1px solid;
+    padding:32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: none;
+}
+
+.vision-card3{
+    border: 1px solid;
+    padding:32px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    border: none;
+}
+
+
+.vision-card-content-heading{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.vision-card-content-btn1{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 11px 20px 11px 20px;
+    border:none;
+    border-radius: 8px;
+}
+
+.vision-card-content-btn2{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 11px 20px 11px 20px;
+    border:none;
+    border-radius: 8px;
+}
+
+.vision-card-content-btn3{
+    font-weight: 600;
+    font-size: 16px;
+    padding: 11px 20px 11px 20px;
+    border:none;
+    border-radius: 8px;
+}
+
+.vision-section{
+    display:flex;
+    margin-top: 30px;
+}
+/* vision card style color */
+.vision-card-content-btn1{
+    color:#FFFFFF;
+    background-color: #5490F5;
+}
+
+.vision-card1{
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.vision-card-content-btn2{
+    color:#FFFFFF;
+    background-color: rgb(9, 161, 92);
+}
+
+.vision-card2{
+    background: rgb(198, 228, 214);
+}
+
+.vision-card-content-btn3{
+    color:#FFFFFF;
+    background-color: rgb(255, 194, 57);
+}
+
+.vision-card3{
+    background: rgb(247, 235, 207);
 }
