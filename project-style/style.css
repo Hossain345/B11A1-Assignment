@@ -1,0 +1,118 @@
+/* font */
+
+.work-sans-normal {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+/* bar style */
+div ul li{
+    list-style: none;
+}
+
+div ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-bar{
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 8px;
+    padding: 15px 30px;
+}
+
+.bar-title{
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.top-bar{
+    margin: 0px 100px 0px 100px;
+}
+
+.header-bar{
+    align-items: center;
+}
+/* bar color */
+.btn-bar{
+    color: #006A50;
+}
+
+/* banner style */
+.banner-greetings{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.banner-heading{
+    font-weight: 800;
+    font-size: 56px;
+}
+
+.banner-btn{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.banner{
+    display:flex;
+    border-radius: 24px;
+    justify-content: space-between;
+    gap: 64;
+    padding: 80px 100px 80px 100px;
+    
+}
+
+.banner-content{
+    margin-left: 60px;
+    margin-bottom: 117px;
+
+}
+
+.banner-img{
+    /* Group 1 */
+position: static;
+width: 474.03px;
+height: 400px;
+/* Inside Auto Layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 64px;
+}
+
+/* banner color */
+.banner-greetings{
+    color: rgba(14, 14, 14, 0.5);
+    font-family: Fira Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.banner-heading{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 56px;
+font-weight: 700;
+line-height: 67px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.banner-btn{
+    border-radius: 8px;
+    background: #006A50;
+    border:none;
+    padding: 17px 34px 17px 34px;
+    color: rgb(255, 255, 255);
+}
+
+.banner{
+    background-color: #C6E4D6;
+}
