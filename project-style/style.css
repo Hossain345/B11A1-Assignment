@@ -36,6 +36,10 @@ div ul{
 .header-bar{
     align-items: center;
 }
+
+.btn-bar:hover{
+    cursor: pointer;
+}
 /* bar color */
 .btn-bar{
     color: #006A50;
@@ -83,6 +87,10 @@ flex: none;
 order: 1;
 flex-grow: 0;
 margin: 0px 64px;
+}
+
+.banner-btn:hover{
+    cursor: pointer;
 }
 
 /* banner color */
@@ -228,6 +236,18 @@ text-align: left;
     display:flex;
     margin-top: 30px;
 }
+
+.vision-card-content-btn1:hover{
+    cursor: pointer;
+}
+
+.vision-card-content-btn2:hover{
+    cursor: pointer;
+}
+
+.vision-card-content-btn3:hover{
+    cursor: pointer;
+}
 /* vision card style color */
 .vision-card-content-btn1{
     color:#FFFFFF;
@@ -343,7 +363,9 @@ blockquote{
 
 /* opinion box color */
 .opinion-head{
-    background: rgb(255, 255, 255);
+    border-radius: 16px;
+
+    background: rgb(240, 234, 234);
 }
 
 .opinion-question-head{
@@ -354,9 +376,217 @@ blockquote{
     background-color: #C6E4D6;
 }
 
-.opinion-box{
-    background-color: #FFFFFF;
-    border-radius: 16px;
+/* recent news style */
+.recent-news{
+    margin-top: 80px;
 }
 
-/*  */
+.recent-news-heading{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.recent-news-paragraph{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.recent-news-card1-img{
+    border-radius: 24px;
+    margin-right: 32px;
+}
+
+.recent-news-card1{
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 24px;
+    padding: 48px;
+}
+
+.recent-news-card1-content{
+    margin-bottom: 10px;
+}
+
+.recent-news-date-time{
+    display: flex;
+}
+
+.recent-news-card1-content-head{
+    font-weight: 700;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+.recent-news-date{
+    margin-right: 10px;
+}
+
+.recent-news-card1-content-para{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.recent-news-card1-content-link{
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 8px;
+    border: none;
+    padding: 13px 26px 13px 26px;
+}
+
+.recent-news-card2{
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: row-reverse;
+    border-radius: 24px;
+    padding: 48px;
+}
+
+.recent-news-card3{
+    display: flex;
+    border-radius: 24px;
+    padding: 48px;
+}
+
+.recent-news-card1-content-link:hover{
+    cursor: pointer;
+}
+
+/* recent news color */
+.recent-news-card1{
+    background: rgb(241, 235, 235);
+}
+
+.recent-news-card2{
+    background: rgb(241, 235, 235);
+}
+
+.recent-news-card3{
+    background: rgb(241, 235, 235);
+}
+
+.recent-news-card1-content-link{
+    background: rgb(0, 106, 80);
+}
+
+/* donate style */
+.donate-content-heading{
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.donate-content-para{
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.donate-content-btn1{
+    font-weight: 700;
+    font-size: 40px;
+    border-radius: 16px;
+    border: none;
+    padding: 40px;
+    margin-right: 30px;
+}
+
+.donate-content-btn1:hover{
+    cursor: pointer;
+    background-color: #5490F5;
+}
+
+.donate-content-btn2{
+    font-weight: 700;
+    font-size: 40px;
+    border-radius: 16px;
+    border: none;
+    padding: 40px;
+    margin-right: 30px;
+}
+
+.donate-content-btn2:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+.donate-content-btn3{
+    font-weight: 700;
+    font-size: 40px;
+    border-radius: 16px;
+    border: none;
+    padding: 40px;
+    margin-right: 30px;
+}
+
+.donate-content-btn3:hover{
+    cursor: pointer;
+    background-color: yellowgreen;
+}
+
+.donate-content-btn4{
+    font-weight: 700;
+    font-size: 40px;
+    border-radius: 16px;
+    border: none;
+    padding: 40px;
+    margin-right: 30px;
+}
+
+.donate-content-btn4:hover{
+    cursor: pointer;
+    background-color: burlywood;
+}
+
+.Other-amount{
+    margin: 32px 0px;
+    padding: 20px 40px 20px 40px;
+}
+
+.donate-content-btn-sub{
+    border-radius: 8px;
+    border: none;
+    padding: 17px 34px 17px 34px;
+    font-weight: 600;
+    font-size: 18px;
+    
+}
+
+.donate-content-btn-sub:hover{
+    cursor: pointer;
+}
+
+
+.donate-content-btn{
+    display: flex;
+    justify-content: center;
+}
+
+.donate-content-h2{
+    display: flex;
+    justify-content: center;
+}
+
+.donate-content-p{
+    display: flex;
+    justify-content: center;
+}
+
+.donate-box-other{
+    display: flex;
+    justify-content: center;
+}
+
+.donate-box-sub{
+    display: flex;
+    justify-content: center;
+}
+/* donate color */
+.donate-content-btn-sub{
+    background-color: #006A50;
+}
+
+
+/* subscribe area style */
+
+
+
