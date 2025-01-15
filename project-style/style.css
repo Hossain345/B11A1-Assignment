@@ -540,6 +540,7 @@ blockquote{
 .Other-amount{
     margin: 32px 0px;
     padding: 20px 40px 20px 40px;
+    width: 600px;
 }
 
 .donate-content-btn-sub{
@@ -587,6 +588,61 @@ blockquote{
 
 
 /* subscribe area style */
+.subscribe-area{
+    padding: 100px 80px 100px 80px;
+    border-radius: 24px;
+    margin-top: 80px;
+}
 
+.subscribe-head-div{
+    display: flex;
+    justify-content: center;
+}
 
+.subscribe-head{
+    font-weight: 700;
+    font-size: 40px;
+}
 
+.subscribe-para-div{
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-para{
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 0px;
+}
+
+.subscribe-btn-div{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.subscribe-mail{
+    padding: 18px 40px 18px 40px;
+    width: 600px;
+}
+
+.subscribe-btn{
+    border-radius: 0px 8px 8px 0px;
+    border: none;
+    background: rgb(0, 106, 80);
+    padding: 17px 34px 17px 34px;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.subscribe-btn:hover{
+    cursor: pointer;
+}
+
+/* subscribe area color */
+.subscribe-area{
+    background-color:#C6E4D6;
+}
+
+/*  */
