@@ -467,6 +467,7 @@ blockquote{
 
 .recent-news-card1-content-link{
     background: rgb(0, 106, 80);
+    color: white;
 }
 
 /* donate style */
@@ -549,7 +550,7 @@ blockquote{
     padding: 17px 34px 17px 34px;
     font-weight: 600;
     font-size: 18px;
-    
+    color: white;
 }
 
 .donate-content-btn-sub:hover{
