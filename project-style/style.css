@@ -645,4 +645,36 @@ blockquote{
     background-color:#C6E4D6;
 }
 
-/*  */
+/* footer area style */
+.footer-section{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    border:1px solid whitesmoke ;
+    margin-top: 80px;
+    padding: 160px 50px 160px 50px;
+}
+
+.footer-head-div{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-head{
+    font-weight: 800;
+    font-size: 32px;
+}
+
+#hori{
+    background-color: wheat;
+    width:1000px;
+}
+
+.footer-img{
+    display: flex;
+    justify-content: center;
+}
+
+.img1{
+    margin-right: 30px;
+    margin-top: 20px;
+}
